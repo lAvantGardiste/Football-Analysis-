@@ -1,0 +1,25 @@
+# Python cache and checkpoints
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Datasets and Training Data
+training/
+datasets/
+
+# Large Video Files (Input and Output)
+output_video/
+*.mp4
+*.avi
+
+# YOLO/PyTorch Models (too large for GitHub)
+*.pt
+models/
+
+# YOLO Runs (Logs, graphs, and temp results)
+runs/
+
+# IDE and System files (Optional but recommended)
+.vscode/
+.idea/
+.DS_Store
